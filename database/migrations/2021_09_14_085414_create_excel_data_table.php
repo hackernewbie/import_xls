@@ -15,6 +15,9 @@ class CreateExcelDataTable extends Migration
     {
         Schema::create('excel_data', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('email');
+            $table->string('active');
             $table->timestamps();
         });
     }
