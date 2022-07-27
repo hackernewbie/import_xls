@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Importer;
 use App\Models\ExcelData;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use Importer;
 
 
 class ExcelDataController extends Controller
